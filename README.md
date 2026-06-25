@@ -1,49 +1,42 @@
-# Caesar Cipher Tool
+# 🔐 Caesar Cipher Tool
 
-A professional Python implementation of the Caesar Cipher featuring encryption, decryption, brute-force cryptanalysis, frequency analysis, text statistics, and result logging.
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![Status](https://img.shields.io/badge/Status-Active-success)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Cybersecurity](https://img.shields.io/badge/Domain-Cybersecurity-red)
 
-## Features
+A feature-rich **Caesar Cipher Cryptography Tool** built in Python. This project demonstrates classical encryption techniques, cryptanalysis methods, and secure coding practices through an interactive command-line interface.
 
-* Encrypt text using Caesar Cipher
-* Decrypt text using Caesar Cipher
-* Brute-force attack (all 26 possible shifts)
-* Frequency analysis attack
-* Text statistics generator
-* Result logging to file
-* Preserves spaces, numbers, and punctuation
-* Interactive command-line interface
-* Input validation for shift values
+---
 
-## Project Structure
+## 🚀 Features
 
-```
-Caesar-Cipher/
-│
-├── caesar_cipher.py
-├── results.txt
-└── README.md
-```
+✅ Encrypt plaintext using Caesar Cipher
 
-## Installation
+✅ Decrypt ciphertext using Caesar Cipher
 
-Clone the repository:
+✅ Brute Force Attack (all 26 possible shifts)
 
-```bash
-git clone https://github.com/your-username/Caesar-Cipher.git
-cd Caesar-Cipher
-```
+✅ Frequency Analysis Attack
 
-## Usage
+✅ Text Statistics Generator
 
-Run the program:
+✅ Result Logging to File
 
-```bash
-python caesar_cipher.py
-```
+✅ Preserves Spaces & Punctuation
 
-### Menu
+✅ Input Validation
 
-```
+✅ Interactive CLI Interface
+
+---
+
+## 🖥️ Demo
+
+```text
+==================================================
+CAESAR CIPHER TOOL
+==================================================
 1. Encrypt Text
 2. Decrypt Text
 3. Brute Force Attack
@@ -52,64 +45,108 @@ python caesar_cipher.py
 6. Exit
 ```
 
-## Example
+---
 
-### Encryption
+## 📂 Project Structure
 
-Input:
-
+```text
+Caesar-Cipher/
+│
+├── caesar_cipher.py
+├── results.txt
+└── README.md
 ```
+
+---
+
+## ⚡ Installation
+
+```bash
+git clone https://github.com/YOUR_USERNAME/Caesar-Cipher.git
+cd Caesar-Cipher
+```
+
+---
+
+## ▶️ Run The Project
+
+```bash
+python caesar_cipher.py
+```
+
+---
+
+## 🔑 Example Encryption
+
+**Input**
+
+```text
 Hello World
 Shift: 3
 ```
 
-Output:
+**Output**
 
-```
+```text
 Khoor Zruog
 ```
 
-### Decryption
+---
 
-Input:
+## 🔓 Example Decryption
 
-```
+**Input**
+
+```text
 Khoor Zruog
 Shift: 3
 ```
 
-Output:
+**Output**
 
-```
+```text
 Hello World
 ```
 
-## Cybersecurity Concepts Demonstrated
+---
+
+## 🛡️ Cybersecurity Concepts Demonstrated
 
 * Classical Cryptography
 * Caesar Cipher Algorithm
-* Brute Force Cryptanalysis
+* Cryptanalysis
+* Brute Force Attacks
 * Frequency Analysis
-* Secure Input Handling
-* Python File Operations
+* Secure User Input Handling
+* File Operations
 
-## Future Improvements
+---
 
-* Vigenère Cipher implementation
-* GUI version using Tkinter
-* Support for custom alphabets
-* Multiple classical ciphers
-* Encryption report generation
+## 📊 Skills Demonstrated
 
-## Technologies Used
-
-* Python 3
-* Collections Module
+* Python Programming
+* Problem Solving
+* Algorithm Design
+* Cybersecurity Fundamentals
+* CLI Application Development
 * File Handling
 
-## Author
+---
 
-Daksh Kumawat
+## 🎯 Future Improvements
 
-Aspiring Cybersecurity Engineer | Python Developer | Open Source Enthusiast
+* Vigenère Cipher
+* AES Encryption Module
+* GUI Version (Tkinter)
+* Password-Based Encryption
+* Support for Custom Alphabets
+
+---
+
+## 👨‍💻 Author
+
+**Daksh Kumawat**
+
+
+⭐ If you found this project useful, consider starring the repository.
 
