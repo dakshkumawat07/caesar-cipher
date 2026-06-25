@@ -1,0 +1,3 @@
+[ENCRYPT] Shift=3 | Input=Hello World | Output=Khoor Zruog
+[DECRYPT] Shift=3 | Input=Khoor Zruog | Output=Hello World
+[ENCRYPT] Shift=3 | Input=The quick brown fox jumps over the lazy dog | Output=Wkh txlfn eurzq ira mxpsv ryhu wkh odcb grj
