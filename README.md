@@ -1,131 +1,115 @@
-# 🔐 Caesar Cipher Tool
+# Caesar Cipher Tool
 
-A Python-based cryptography project that implements the classical Caesar Cipher algorithm for encryption, decryption, and brute-force analysis.
+A professional Python implementation of the Caesar Cipher featuring encryption, decryption, brute-force cryptanalysis, frequency analysis, text statistics, and result logging.
 
-![Python](https://img.shields.io/badge/Python-3.x-blue)
-![Cryptography](https://img.shields.io/badge/Domain-Cryptography-green)
-![Status](https://img.shields.io/badge/Status-Active-success)
+## Features
 
----
+* Encrypt text using Caesar Cipher
+* Decrypt text using Caesar Cipher
+* Brute-force attack (all 26 possible shifts)
+* Frequency analysis attack
+* Text statistics generator
+* Result logging to file
+* Preserves spaces, numbers, and punctuation
+* Interactive command-line interface
+* Input validation for shift values
 
-## 📖 Overview
+## Project Structure
 
-The Caesar Cipher is one of the earliest and simplest encryption techniques. This project demonstrates how classical substitution ciphers work and provides tools for:
+```
+Caesar-Cipher/
+│
+├── caesar_cipher.py
+├── results.txt
+└── README.md
+```
 
-- Encrypting messages
-- Decrypting messages
-- Brute-force cracking unknown shifts
-
-This project serves as a foundation for understanding modern cryptographic concepts.
-
----
-
-## ✨ Features
-
-- ✅ Encrypt text using a custom shift value
-- ✅ Decrypt text using a known shift value
-- ✅ Brute-force decryption (all 25 possible shifts)
-- ✅ Preserves non-alphabetic characters
-- ✅ Beginner-friendly cryptography implementation
-
----
-
-## 🛠 Technologies Used
-
-- Python 3
-
----
-
-## 🚀 Installation
+## Installation
 
 Clone the repository:
 
 ```bash
-git clone https://github.com/dakshkumawat07/caesar-cipher.git
-cd caesar-cipher
+git clone https://github.com/your-username/Caesar-Cipher.git
+cd Caesar-Cipher
 ```
 
----
+## Usage
 
-## ▶️ Usage
-
-Run the script:
+Run the program:
 
 ```bash
-python3 caesar_cipher.py
+python caesar_cipher.py
 ```
 
-Follow the on-screen menu to:
+### Menu
 
-- Encrypt text
-- Decrypt text
-- Perform brute-force analysis
+```
+1. Encrypt Text
+2. Decrypt Text
+3. Brute Force Attack
+4. Frequency Analysis Attack
+5. Text Statistics
+6. Exit
+```
 
----
+## Example
 
-## 📊 Example
+### Encryption
 
-Encryption:
+Input:
 
-```text
-Input: HELLO
+```
+Hello World
 Shift: 3
-
-Output: KHOOR
 ```
 
-Decryption:
+Output:
 
-```text
-Input: KHOOR
+```
+Khoor Zruog
+```
+
+### Decryption
+
+Input:
+
+```
+Khoor Zruog
 Shift: 3
-
-Output: HELLO
 ```
 
----
+Output:
 
-## 📂 Project Structure
-
-```text
-caesar-cipher/
-│
-├── caesar_cipher.py
-├── README.md
-└── .gitignore
+```
+Hello World
 ```
 
----
+## Cybersecurity Concepts Demonstrated
 
-## 🎯 Learning Outcomes
+* Classical Cryptography
+* Caesar Cipher Algorithm
+* Brute Force Cryptanalysis
+* Frequency Analysis
+* Secure Input Handling
+* Python File Operations
 
-This project demonstrates:
+## Future Improvements
 
-- Classical cryptography concepts
-- Substitution cipher logic
-- Encryption and decryption techniques
-- Brute-force attack methodology
-- Python programming fundamentals
+* Vigenère Cipher implementation
+* GUI version using Tkinter
+* Support for custom alphabets
+* Multiple classical ciphers
+* Encryption report generation
 
----
+## Technologies Used
 
-## ⚠️ Security Note
+* Python 3
+* Collections Module
+* File Handling
 
-The Caesar Cipher is historically important but cryptographically weak and should not be used for real-world security applications.
+## Author
 
----
+Daksh Kumawat
 
-## 🔮 Future Improvements
+Aspiring Cybersecurity Engineer | Python Developer | Open Source Enthusiast
 
-- Frequency analysis attack
-- Vigenère Cipher implementation
-- GUI version using Tkinter
-- Support for custom alphabets
-
----
-
-## 👨‍💻 Author
-
-**Daksh Kumawat**
-
-GitHub: https://github.com/dakshkumawat07
